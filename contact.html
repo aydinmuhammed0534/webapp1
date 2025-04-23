@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AMA Mühendislik İletişim - Bizimle iletişime geçin, sorularınızı yanıtlayalım ve ihtiyaçlarınıza uygun çözümler sunalım">
+    <title>İletişim - AMA Mühendislik</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-logo">AMA Mühendislik</a>
+            <button class="navbar-toggle" id="navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="navbar-menu" id="navbar-menu">
+                <li><a href="index.html" class="navbar-link">Ana Sayfa</a></li>
+                <li><a href="services.html" class="navbar-link">Hizmetler</a></li>
+                <li><a href="about.html" class="navbar-link">Hakkımızda</a></li>
+                <li><a href="contact.html" class="navbar-link active">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>İletişim</h1>
+            <p>Projeleriniz için bizimle iletişime geçin</p>
+        </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="section" id="contact-info">
+        <div class="container">
+            <div class="simple-grid three-cols">
+                <div class="contact-card">
+                    <div class="simple-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Adres</h3>
+                    <p>İstanbul, Türkiye</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="simple-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Telefon</h3>
+                    <p><a href="tel:+905001234567">+90 500 123 45 67</a></p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="simple-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>E-posta</h3>
+                    <p><a href="mailto:info@amamuhendislik.com">info@amamuhendislik.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="section light-section" id="contact-form">
+        <div class="container">
+            <div class="section-header">
+                <h2>Bize Ulaşın</h2>
+                <p>Sorularınız veya projeleriniz için formu doldurun</p>
+            </div>
+            
+            <div class="simple-grid two-cols">
+                <div class="form-container">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Adınız Soyadınız</label>
+                            <input type="text" id="name" name="name" placeholder="Adınız Soyadınız" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-posta Adresiniz</label>
+                            <input type="email" id="email" name="email" placeholder="E-posta Adresiniz" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Telefon Numaranız</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Telefon Numaranız">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Konu</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected>Konu Seçiniz</option>
+                                <option value="web-development">Web Geliştirme</option>
+                                <option value="software-development">Yazılım Geliştirme</option>
+                                <option value="data-analysis">Veri Analizi</option>
+                                <option value="engineering">Mühendislik Danışmanlığı</option>
+                                <option value="other">Diğer</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mesajınız</label>
+                            <textarea id="message" name="message" placeholder="Mesajınız" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Gönder</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h3>Hızlı İletişim</h3>
+                    <p>Acil sorularınız için bizi doğrudan arayabilir veya e-posta gönderebilirsiniz. En kısa sürede size dönüş yapacağız.</p>
+                    
+                    <div class="contact-detail">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Çalışma Saatleri</h4>
+                            <p>Pazartesi - Cuma: 09:00 - 18:00</p>
+                            <p>Cumartesi: 10:00 - 14:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-detail">
+                        <i class="fas fa-comments"></i>
+                        <div>
+                            <h4>Canlı Destek</h4>
+                            <p>Çalışma saatleri içinde canlı destek hattımız hizmetinizdedir</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section class="section" id="map">
+        <div class="container">
+            <div class="section-header">
+                <h2>Bizi Ziyaret Edin</h2>
+                <p>Ofisimizin konumu</p>
+            </div>
+            
+            <div class="map-container">
+                <!-- Harita yerine ikon kullanarak minimalist görünüm -->
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt fa-5x"></i>
+                    <p>AMA Mühendislik, İstanbul, Türkiye</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section light-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sık Sorulan Sorular</h2>
+                <p>Projeleriniz hakkında merak ettikleriniz</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h3>Bir web sitesi projesi ne kadar sürer?</h3>
+                    <p>Web sitesi projelerinin süresi, sitenin karmaşıklığına ve özelliklerine bağlı olarak değişir. Basit bir web sitesi 2-3 hafta içinde tamamlanabilirken, daha karmaşık projeler 2-3 ay sürebilir.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Hizmetlerinizin fiyatlandırması nasıl belirlenir?</h3>
+                    <p>Fiyatlandırmamız projenin kapsamına, gereken teknolojilere ve tahmini süreye bağlı olarak belirlenir. Her proje için özel fiyat teklifi sunuyoruz.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Yazılım geliştirme süreciniz nasıl işliyor?</h3>
+                    <p>Yazılım geliştirme sürecimiz ihtiyaç analizi, tasarım, geliştirme, test ve bakım aşamalarını içerir. Projelerimizde çevik metodolojiler kullanarak sizi sürecin her aşamasına dahil ediyoruz.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Tamamlanan projelerde destek ve bakım hizmeti sunuyor musunuz?</h3>
+                    <p>Evet, tüm projelerimiz için destek ve bakım hizmeti sunuyoruz. Bakım paketlerimiz hakkında daha fazla bilgi için bizimle iletişime geçebilirsiniz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-simple">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Haydi, Projenizi Birlikte Gerçekleştirelim</h2>
+                <p>Hızlı cevap ve profesyonel hizmet için bize ulaşın.</p>
+                <a href="tel:+905001234567" class="btn btn-light">Hemen Ara</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>AMA Mühendislik</h3>
+                    <p>Modern teknolojilerle işletmenizi dijital dünyada öne çıkarıyoruz.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Hızlı Linkler</h4>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="services.html">Hizmetler</a></li>
+                        <li><a href="about.html">Hakkımızda</a></li>
+                        <li><a href="contact.html">İletişim</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>İletişim</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> İstanbul, Türkiye</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+905001234567">+90 500 123 45 67</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@amamuhendislik.com">info@amamuhendislik.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 AMA Mühendislik. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navigation menu toggle
+        document.getElementById('navbar-toggle').addEventListener('click', function() {
+            document.getElementById('navbar-menu').classList.toggle('active');
+        });
+
+        // Contact form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Mesajınız gönderildi. En kısa sürede size dönüş yapacağız.');
+            this.reset();
+        });
+    </script>
+</body>
+</html> 
